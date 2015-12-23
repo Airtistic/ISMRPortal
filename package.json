@@ -1,0 +1,10 @@
+{
+  "name": "hospital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "author": "Rafael Fernandes",
+  "devDependencies": {
+    "express": "^4.13.3"
+  }
+}
