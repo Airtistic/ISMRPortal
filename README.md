@@ -46,10 +46,14 @@ su
 ```
 
 ### To stop the server
-`./node_modules/forever/bin/forever stop server.js
+```
+./node_modules/forever/bin/forever stop server.js
+```
 
 ## To remote to the Ubuntu box
-`ssh -i "hospital.pem" ubuntu@54.165.237.141
+```
+ssh -i "hospital.pem" ubuntu@54.165.237.141
+```
 
 ## To access development enviroment
-`http://ec2-54-165-237-141.compute-1.amazonaws.com/
+http://ec2-54-165-237-141.compute-1.amazonaws.com/
