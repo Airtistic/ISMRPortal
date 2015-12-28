@@ -10,3 +10,23 @@ http://ec2-54-165-237-141.compute-1.amazonaws.com:8888/
 ctrl+c to stop
 Retrieved DynamoDb info 0
 Retrieved DynamoDb articles in: 73ms
+Retrieved cached articles in: 0ms
+successfully started!!
+----------------------
+http://ec2-54-165-237-141.compute-1.amazonaws.com/
+----------------------
+ctrl+c to stop
+Retrieved DynamoDb info 0
+Retrieved DynamoDb articles in: 78ms
+Retrieved cached articles in: 0ms
+successfully started!!
+----------------------
+http://ec2-54-165-237-141.compute-1.amazonaws.com/
+----------------------
+ctrl+c to stop
+successfully started!!
+----------------------
+http://ec2-54-165-237-141.compute-1.amazonaws.com/
+----------------------
+ctrl+c to stop
+E-mail send successfully {"name":"Rafael Fernandes","email":"rafael.net.ca@gmail.com","company":"Mr. Pro Software Inc.","message":"Testing e-mail from the http://ec2-54-165-237-141.compute-1.amazonaws.com/ website!!!"}
