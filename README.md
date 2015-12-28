@@ -19,3 +19,22 @@ node start
 
 ## Error?
 If you receive any error, please comment all the `console.log()` at the end of start.js file.
+
+## Add credentials.js
+To load the DynamoDb database you must create the file credentials.js in the root folder like:
+```
+module.exports={
+      accessKeyId: 'AkIAJ7MWPPL3YDSJUAXq',
+  secretAccessKey: 'SttXcQn6KfeB2SGOom/rTJEeop/76h+JWyFpfIEb'
+}
+```
+
+### AWS Credentials information:
+You can retrive the credentials information in the link bellow:
+```
+https://console.aws.amazon.com/iam/home?region=us-east-1#users
+```
+
+## Database structure
+
+1. Create a table called: Articles 

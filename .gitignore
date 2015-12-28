@@ -10,3 +10,6 @@
 # misc
 npm-debug.log
 testem.log
+
+credentials.js
+hospital.pem

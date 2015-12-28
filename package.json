@@ -5,6 +5,8 @@
   "main": "start.js",
   "author": "Rafael Fernandes",
   "devDependencies": {
+    "aws-sdk": "^2.2.26",
+    "dynamodb": "^0.3.6",
     "express": "^4.13.3"
   }
 }
