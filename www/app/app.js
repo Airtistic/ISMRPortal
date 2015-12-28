@@ -15,6 +15,7 @@
 
     function afterEmailWasSent(){
       vm.emailSender = {};
+      vm.emailSent = true;
     }
   }
 })();

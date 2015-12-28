@@ -31,6 +31,8 @@
    <link href="assets/vendor/progresstracker/css/jquery.progresstracker.css" rel="stylesheet">
    <link href="assets/vendor/offcanvas-menu/css/normalize.css" rel="stylesheet" type="text/css"/>
    <link href="assets/custom/css/style.css" rel="stylesheet" type="text/css" media="screen"/>
+   <link rel="stylesheet" type="text/css" href="www/css/style.css" charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="www/css/animate.css" charset="utf-8">
 
    <!-- Fonts -->
    <link href='http://fonts.googleapis.com/css?family=Oxygen:400,700' rel='stylesheet' type='text/css'>
@@ -1063,7 +1065,13 @@ Dolor deserunt quae nostrum sequi earum officia ab minus dicta. Soluta error imp
 
       <!-- Feedback Block -->
       <section id="feedback" class="feedback e-block e-block-darker" data-stellar-background-ratio="0.5">
-         <div class="container pt-section text-center" data-name="Feedback" id="ptsection-eight">
+
+        <div ng-if="rootCtrl.emailSent" id="footer">
+          <div class="container text-center animated zoomIn">
+            <h3 class="font-accident-one-bold hovercolor">Thank you for your feedback!</h3>
+          </div>
+        </div>
+        <div ng-if="!rootCtrl.emailSent" class="container pt-section text-center" data-name="Feedback" id="ptsection-eight">
 
             <div class="row">
                <div class="col-md-12">
@@ -1076,7 +1084,8 @@ Dolor deserunt quae nostrum sequi earum officia ab minus dicta. Soluta error imp
                <div class="col-md-2"></div>
                <div class="col-md-8 e-centered">
                   <div class="dividewhite2"></div>
-                  <form ng-submit="rootCtrl.sendEmail()" class="wpcf7-form">
+
+                  <form ng-if="!emailSent" ng-submit="rootCtrl.sendEmail()" class="wpcf7-form">
                      <p>
                         <span class="wpcf7-form-control-wrap"><input type="text" ng-model="rootCtrl.emailSender.name" size="40" class="" placeholder="Name"></span>
                         <span class="wpcf7-form-control-wrap"><input type="email" ng-model="rootCtrl.emailSender.email" size="40" class="" placeholder="Email"></span>
