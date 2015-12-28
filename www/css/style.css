@@ -1,6 +1,21 @@
-body {
-
+body * {
+  color: lightblue;
 }
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
   display: none !important;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
+}
+.menu-item > a {
+    /* color: #391A2D !important; */
+    /* color: #C56D5C !important; */
+}
+
+#header-wrapper-mp .header-dark #main-menu > ul > li > a {
+  color: rgba(41, 46, 49, 1.00);
 }

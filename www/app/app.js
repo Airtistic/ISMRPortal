@@ -10,7 +10,7 @@
 
     function sendEmail(){
        $http.post('api/sendEmail', {emailSender: vm.emailSender})
-         .then(afterEmailWasSent);
+            .then(afterEmailWasSent);
     }
 
     function afterEmailWasSent(){
