@@ -64,9 +64,9 @@ function getArticlesEn(req, res){
   }
 }
 
-app.listen(8888);
+app.listen(80);
 console.log('successfully started!!');
 console.log('----------------------');
-console.log('http://localhost:8888/');
+console.log('http://ec2-54-165-237-141.compute-1.amazonaws.com/');
 console.log('----------------------');
 console.log('ctrl+c to stop');

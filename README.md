@@ -38,3 +38,18 @@ https://console.aws.amazon.com/iam/home?region=us-east-1#users
 ## Database structure
 
 1. Create a table called: Articles 
+
+## To start the server
+```
+su
+./node_modules/forever/bin/forever start -al forever.log -ao out.log -ae err.log start.js
+```
+
+### To stop the server
+`./node_modules/forever/bin/forever stop server.js
+
+## To remote to the Ubuntu box
+`ssh -i "hospital.pem" ubuntu@54.165.237.141
+
+## To access development enviroment
+`http://ec2-54-165-237-141.compute-1.amazonaws.com/
