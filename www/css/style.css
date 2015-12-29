@@ -8,5 +8,9 @@ body * {
 #header-wrapper-mp .header-dark #main-menu > ul > li > a ,
 #header-wrapper-mp .header-dark #site-title a h1,
 #header-wrapper-mp .header-dark .nav-icon div{
-  color: rgba(41, 46, 49, 1.00);
+  color: rgba(41, 46, 49, 1.00) !important;
+}
+#header-wrapper-mp .header-dark .nav-icon div,
+#header-wrapper-mp .header-dark .nav-icon::before, #header-wrapper-mp .header-dark .nav-icon::after{
+  background-color: rgba(41, 46, 49, 1.00) !important; 
 }
