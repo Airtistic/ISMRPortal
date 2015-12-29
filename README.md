@@ -47,13 +47,19 @@ su
 
 ### To stop the server
 ```
-./node_modules/forever/bin/forever stop server.js
+./node_modules/forever/bin/forever stop start.js
 ```
 
-## To remote to the Ubuntu box
+## To remote to the Development Ubuntu box
 ```
 ssh -i "hospital.pem" ubuntu@54.165.237.141
 ```
 
 ## To access development enviroment
 http://ec2-54-165-237-141.compute-1.amazonaws.com/
+
+
+## To access staging enviroment
+```
+???
+```
